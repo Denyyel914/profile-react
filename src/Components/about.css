@@ -77,5 +77,28 @@
     align-items: center;
 }
 
+@media(max-width: 760px) {
+    
+    .grid-ul {
+        margin-top: 1rem;
+    }
 
+    .flex {
+        flex-direction: column;
+    }
+
+    .div1 img {
+        height: 50vh;
+    }
+
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .main-content h1 {
+        font-size: 3.2rem;
+    }
+
+    
+}
 
