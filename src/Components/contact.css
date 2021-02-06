@@ -1,0 +1,67 @@
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    align-items: center;
+    /* line-height: 2rem; */
+}
+
+.contact-grid img {
+    width: 100%;
+}
+
+.contact-grid a {
+    font-size: 2.5rem;
+    color: #1089E3;
+}
+
+.social-links {
+    line-height: 2;
+}
+
+.social-links a {
+    margin-left: 5px;
+}
+
+.social-links h2 {
+    font-size: 2rem;
+}
+
+.social-links p {
+    font-size: 1rem;
+}
+
+.social-links a {
+    font-size: 2rem;
+}
+
+.social-links .ig {
+    color: #C13584;
+}
+
+.social-links .fb {
+    color: #4267B2;
+}
+
+.social-links .tw {
+    color: #1DA1F2;    
+}
+
+.social-links .link {
+    color: #2867B2;
+}
+
+.social-links .github {
+    color: #211F1F;
+}
+
+@media(max-width: 760px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+    }
+
+    .social-links h2 {
+        font-size: 1.5rem;
+    }
+}

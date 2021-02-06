@@ -2,16 +2,37 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<App />,document.getElementById('root'));
+
+const navbar = document.querySelector('header');
+window.onscroll = () => {
+    if (window.scrollY > 200) {
+        navbar.classList.add('header-color');
+    } else {
+        navbar.classList.remove('header-color');
+    }
+};
+
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-list');
+    const navList = document.querySelectorAll('.nav-list li');
+
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+
+        navList.forEach((links, index) => {
+            if(links.style.animation) {
+                links.style.animation = '';
+            } else {
+                links.style.animation = `navListFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+            }
+        });
+        burger.classList.toggle('toggle');
+    });
+}
+
+navSlide();
+
