@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/profile-react/static/css/main.b4103878.chunk.css",
+    "main.js": "/profile-react/static/js/main.91f480f8.chunk.js",
+    "main.js.map": "/profile-react/static/js/main.91f480f8.chunk.js.map",
+    "runtime-main.js": "/profile-react/static/js/runtime-main.0651c319.js",
+    "runtime-main.js.map": "/profile-react/static/js/runtime-main.0651c319.js.map",
+    "static/js/2.138e43e8.chunk.js": "/profile-react/static/js/2.138e43e8.chunk.js",
+    "static/js/2.138e43e8.chunk.js.map": "/profile-react/static/js/2.138e43e8.chunk.js.map",
+    "index.html": "/profile-react/index.html",
+    "static/css/main.b4103878.chunk.css.map": "/profile-react/static/css/main.b4103878.chunk.css.map",
+    "static/js/2.138e43e8.chunk.js.LICENSE.txt": "/profile-react/static/js/2.138e43e8.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/profile-react/static/media/background.97676803.jpg",
+    "static/media/deniel2.02fb333a.jpg": "/profile-react/static/media/deniel2.02fb333a.jpg",
+    "static/media/tenor.c7f5ca65.gif": "/profile-react/static/media/tenor.c7f5ca65.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0651c319.js",
+    "static/js/2.138e43e8.chunk.js",
+    "static/css/main.b4103878.chunk.css",
+    "static/js/main.91f480f8.chunk.js"
+  ]
+}
